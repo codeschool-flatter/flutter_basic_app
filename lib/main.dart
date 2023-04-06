@@ -4,8 +4,19 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
-      body: Container(
-        color: Colors.greenAccent,
+      body: Column(
+        children: [
+          Container(
+            width: 50,
+            height: 50,
+            color: Colors.redAccent,
+          ),
+          Container(
+            width: 50,
+            height: 50,
+            color: Colors.greenAccent,
+          ),
+        ],
       ),
     ),
   ));
