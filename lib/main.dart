@@ -5,6 +5,9 @@ void main() {
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(),
+      body: Container(
+        color: Colors.greenAccent,
+      ),
     ),
   ));
 }
