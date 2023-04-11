@@ -14,7 +14,7 @@ void main() {
           height: 300,
           fit: BoxFit.none,
           cacheHeight: 500,
-          cacheWidth: 500,
+          alignment: Alignment.topLeft,
         ),
       ),
     ),
