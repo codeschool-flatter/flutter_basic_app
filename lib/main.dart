@@ -7,10 +7,9 @@ void main() {
     home: Scaffold(
       backgroundColor: const Color(0xFFF3F5F8),
       body: Center(
-        child: Image.network(
-            'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg',
-            width: 150,
-            height: 300),
+        child: Image.asset(
+          'img/logo.jpg',
+        ),
       ),
     ),
   ));
