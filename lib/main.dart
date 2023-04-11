@@ -6,12 +6,15 @@ void main() {
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       backgroundColor: const Color(0xFFF3F5F8),
-      body: Center(
+      body: Container(
+        color: Colors.greenAccent,
         child: Image.asset(
           'img/logo.jpg',
           width: 300,
-          height: 100,
-          fit: BoxFit.fill,
+          height: 300,
+          fit: BoxFit.none,
+          cacheHeight: 500,
+          cacheWidth: 500,
         ),
       ),
     ),
