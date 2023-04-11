@@ -9,6 +9,9 @@ void main() {
       body: Center(
         child: Image.asset(
           'img/logo.jpg',
+          width: 300,
+          height: 100,
+          fit: BoxFit.fill,
         ),
       ),
     ),
