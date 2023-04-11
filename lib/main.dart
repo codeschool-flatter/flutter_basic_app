@@ -8,13 +8,8 @@ void main() {
       backgroundColor: const Color(0xFFF3F5F8),
       body: Center(
         // color: Colors.greenAccent,
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(25),
-          child: Image.asset(
-            'img/logo.jpg',
-            width: 300,
-            // height: 300,
-          ),
+        child: FlutterLogo(
+          size: 150,
         ),
       ),
     ),
